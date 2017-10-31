@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Андрей Курмаев](https://up.htmlacademy.ru/htmlcss/19/user/232797).
-* Наставник: [Андрей Грачев](https://up.https://htmlacademy.ru/profile/id252055).
+* Наставник: [Андрей    Грачев](https://up.https://htmlacademy.ru/profile/id252055).
 
 ---
 
