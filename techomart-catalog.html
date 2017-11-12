@@ -9,6 +9,9 @@
       <div class="header-top container">     
            <a class="main" href="#">Техномарт</a>
             <div class="search">
+			<form action="/echo" method="post">
+                <input type="search" placeholder="Поиск" value="Поиск:">
+            </form>
             </div>
             <nav class="user-block">
                 <ul>
@@ -53,17 +56,35 @@
    <div class="container">
        <main>
 	   <section class="price-filter">
-               <div class="widget">
-                   <p class="filter">Фильтр:</p>
-                </div>
-               <p class="price">
-                   Цена:
-               </p>
+            <div class="widget">
+                <p class="filter">Фильтр:</p>
+            </div>
+            <p class="price">Цена:</p>
+            <form action="form.php" method="GET">      	   
                <div class="range-filter">
                    
                </div>
-			   <h2 class="prodaction">Производители</h2>
-			   <h2 class="food">ПИТАНИЕ:</h2>
+			    <label>Производители</label>
+			    <div class="width">
+			    <input type="checkbox" id="ch1">
+                <label for="ch1">Bosсh</label>
+                <input type="checkbox" id="ch2">
+                <label for="ch2">Интерскол</label>
+                <input type="checkbox" id="ch3">
+                <label for="ch3">Makita</label>
+                <input type="checkbox" id="ch4">
+                <label for="ch4">Dewalt</label>
+                <input type="checkbox" id="ch5">
+                <label for="ch5">Hitachi</label>
+			   
+			    <label>ПИТАНИЕ:</label>
+			    <input id="radio-1" name="radio" type="radio" checked>
+                <label for="radio-1">Аккумуляторные</label>
+                <input id="radio-2" name="radio" type="radio">
+                <label for="radio-2">Сетевые</label>
+			    <input type="submit" value="ПОКАЗАТЬ"> 
+			  </div> 
+			</form>   
        </section>
            <div class="sorted">
                <p>Сортировка:</p> 
@@ -224,8 +245,8 @@
     </footer>
 	<section class="modal modal-buy">
          <h2>Товар добавлен в корзину:</h2>
-		  <!-- Здесь будет форма для кнопки -->
-		 
+		 <a class="issue" href="#">Оформить заказ</a>
+		 <a class="buy-return" href="#">Продолжить покупки</a>
       <span class="modal-close">x</span>
     </section>
   </body>
