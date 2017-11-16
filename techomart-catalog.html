@@ -3,6 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Техномарт</title>
+	<link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700&amp;subset=latin,cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin,cyrillic" rel="stylesheet">
+	<link href="css/normalize.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -31,8 +35,8 @@
                 <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>    
             </div>
             <div class="header-user">
-                <div class="header-user">РАВШАН ДЖАМШУТОВИЧ</div><a class="icon-logout"></a><a class="icon-user"></a>
-                <div class="user">
+                <a class="user">РАВШАН ДЖАМШУТОВИЧ</a>
+                <div class="user-admin">
                     <a class="order" href="#">Мои заказы</a>
                     <a class="office" href="#">Личный кабинет</a>
                 </div>
@@ -50,23 +54,40 @@
             </nav>     
      </div>
    </header>
-   <div class="container">
+   <nav class="catalog-navigation container">
+        <ul>
+          <li><a class="main" href="#">Каталог</a></li>
+          <li><a class="tools" href="#">Инструменты</a></li>
+          <li><a class="ncc" href="techomart-catalog.html">Перфораторы</a></li> 
+	     </ul>	   
+	</nav>	   
+   <div class="puncer container">
        <h1 class="puncer-title">Перфораторы</h1>
    </div>
    <div class="container">
        <main>
-	   <section class="price-filter">
-            <div class="widget">
-                <p class="filter">Фильтр:</p>
-            </div>
-            
+	    <div class="sorted">
+               <p>Сортировка:</p> 
+           
+           <div class="link-sorting">
+               <a class="price" href="#">По цене</a>
+    	       <a class="types" href="#">По типу</a>
+		       <a class="function" href="#">По функционалу</a>
+           </div>
+           <div class="delta">
+               <a class="arrow arrow-up" href="#">по возрастанию</a>
+               <a class="arrow arrow-down" href="#">по убыванию</a>
+           </div>
+		   </div>
+	    <section class="price-filter">
+                <p class="filter">Фильтр:</p>         
             <form action="form.php" method="GET"> 
              <p class="price">Цена:</p>			
                <div class="price-controls">
-                 <label class="min-price">от <input name="min-price" type="text" value="0"></label>
-                <label class="max-price">до <input name="max-price" type="text" value="30000"></label>
+                 <label class="min-price"> <input name="min-price" type="text" value="0"></label>
+                <label class="max-price"> <input name="max-price" type="text" value="30000"></label>
              </div>
-			    <p>Производители</p>
+			    <p class="maker">Производители</p>
 			    <div class="width">
 			    <input type="checkbox" id="ch1" name="checkbox1" checked>
                 <label for="ch1">Bosсh</label>
@@ -79,7 +100,7 @@
                 <input type="checkbox" id="ch5" name="checkbox5">
                 <label for="ch5">Hitachi</label>
 			   
-			    <p>ПИТАНИЕ:</p>
+			    <p class="food">ПИТАНИЕ:</p>
 			    <input id="radio-1" name="radio" type="radio" checked>
                 <label for="radio-1">Аккумуляторные</label>
                 <input id="radio-2" name="radio" type="radio">
@@ -88,18 +109,6 @@
 			  </div> 
 			</form>   
        </section>
-           <div class="sorted">
-               <p>Сортировка:</p> 
-           </div>
-           <div class="link-sorting">
-               <a class="price" href="#">По цене</a>
-    	       <a class="types" href="#">По типу</a>
-		       <a class="function" href="#">По функционалу</a>
-           </div>
-           <div class="delta">
-               <a class="arrow arrow-up" href="#">по возрастанию</a>
-               <a class="arrow arrow-down" href="#">по убыванию</a>
-           </div>
            <section class="catalog-items">
                <article class="catalog-item">         
                     <div class="actions">
@@ -250,7 +259,6 @@
 		 <a class="issue" href="#">Оформить заказ</a>
 		 <a class="buy-return" href="#">Продолжить покупки</a>
       <button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
-    </section>
-	
+    </section>	
   </body>
 </html>

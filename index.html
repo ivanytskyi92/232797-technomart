@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
+<head>
     <meta charset="utf-8">
     <title>Техномарт</title>
+	<link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700&amp;subset=latin,cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin,cyrillic" rel="stylesheet">
+	<link href="css/normalize.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
   </head>
-  <body>
+<body>
    <header>
      <div class="header-top container">     
           <a class="main">Техномарт</a>
@@ -27,8 +31,8 @@
              и инструментов для ремонта</p>
             </div>
             <div class="header-contacts">
-                <p>+7 (812) 555-05-55</p><a class="ver" href="#"></a>
-                <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>    
+                <p class="phone">+7 (812) 555-05-55</p>
+                <p class="adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>    
             </div>
             <div class="header-authorization">
                 <a class="sign-up" href="#">Войти</a>
@@ -101,12 +105,12 @@
 	  </div>
 	  </section>
     <main class="center-block-main">
-        <div class="index-content clearfix">
+        <div class="index-content">
             <div class="index-content-left">
-                <h2 class="index-content-title">Популярные производители:</h2>
+                <h2 class="index-content-title">Популярные товары:</h2>
             </div>
             <div class="index-content-right">
-                <a class="bth">Открыть каталог</a>
+                <a class="bth">Все популярные товары</a>
             </div>
         </div>
         <section class="catalog-items">
@@ -115,7 +119,7 @@
                     <a class="buy" href="#">Купить</a>
                     <a class="bookmark" href="#">В закладки</a>
                 </div>
-                <div class="image"><img width="220" height="168" src="img/bosh-bfg-9000.jpg" alt="bfg-9000"></div>
+                <div class="image"><img width="217" height="168" src="img/bosh-bfg-9000.jpg" alt="bfg-9000"></div>
                 <h2 class="title">Перфоратор BOSH BFG 9000</h2>
                 <div class="discount">32 500 Р.</div>
                 <div class="price">22 550 Р.</div>
@@ -125,7 +129,7 @@
                     <a class="buy" href="#">Купить</a>
                     <a class="bookmark" href="#">В закладки</a>
                 </div>
-                <div class="image"><img width="220" height="168" src="img/bosh-bfg-3000.jpg" alt="bfg-3000"></div>
+                <div class="image"><img width="217" height="168" src="img/bosh-bfg-3000.jpg" alt="bfg-3000"></div>
                 <h2 class="title">Перфоратор BOSH BFG 3000</h2>
                 <div class="discount">30 500 Р.</div>
                 <div class="price">25 500 Р.</div>
@@ -135,7 +139,7 @@
                     <a class="buy" href="#">Купить</a>
                     <a class="bookmark" href="#">В закладки</a>
                 </div>
-                <div class="image"><img width="220" height="168" src="img/bosh-bfg-6000.jpg" alt="bfg-6000"></div>
+                <div class="image"><img width="217" height="168" src="img/bosh-bfg-6000.jpg" alt="bfg-6000"></div>
                 <h2 class="title">Перфоратор BOSH BFG 6000</h2>
                 <div class="discount">30 500 Р.</div>
                 <div class="price">25 500 Р.</div>
@@ -145,14 +149,22 @@
                     <a class="buy" href="#">Купить</a>
                     <a class="bookmark" href="#">В закладки</a>
                 </div>
-                <div class="image"><img width="220" height="168" src="img/bosh-bfg-2000.jpg" alt="bfg-2000"></div>
+                <div class="image"><img width="217" height="168" src="img/bosh-bfg-2000.jpg" alt="bfg-2000"></div>
                 <h2 class="title">Перфоратор BOSH BFG 2000</h2>
                 <div class="price">12 500 Р.</div>
             </article>
         </section>
+		<div class="index-content clearfix">
+            <div class="index-content-left">
+                <h2 class="index-content-title">Популярные производители:</h2>
+            </div>
+            <div class="index-content-right">
+                <a class="bth">Все производители</a>
+            </div>
+        </div>
          <section class="catalog-company">
             <a class="catalog-item" href="#">
-                <div class="image"><img width="122" height="32" src="img/company-bosh.jpg" alt="bosh"></div>
+                <div class="image"><img width="122" height="32" src="img/company-bosch.jpg" alt="bosh"></div>
             </a>
             <a class="catalog-item" href="#">
                 <div class="image"><img width="123" height="40" src="img/company-makita.jpg" alt="makita"></div>
@@ -222,17 +234,16 @@
        </div>
        <div class="about-technomart">
         <div class="index-content-left">
-            <h2 class="index-content-title">Компания техномарт</h2>
+            <h2 class="index-content-title">&laquo;Компания техномарт&raquo;</h2>
             <p>Настощий мужской шопинг начинается здесь! Огромный выбор товаров для ремонта и
           строительства не оставит равнодушными любителей на гастарбайтерах.</p>
           
           <p>Мы можем доставить товары в самые отдельный точки в России!
     	  Техномарт работает со многими транспортными компаниями:</p>
             <ul class="suggestions">
-              <li><a class="company" href="#">Компания</a></li>
-              <li><a class="services" href="#">Услуги</a></li>
-              <li><a class="team" href="#">Сотрудники</a></li>
-              <li><a class="contacts" href="#">Контакты</a></li>
+              <li><a class="company" href="#">Деловые линии</a></li>
+              <li><a class="services" href="#">Автотрейдинг</a></li>
+              <li><a class="team" href="#">ЖелДорЭкспедиция</a></li>
             </ul>
           <a class="bth" href="">Подробнее о комании</a>
         </div>
@@ -241,7 +252,7 @@
             <p>Вы можете забрать товар сами,
     	     заехав в наш офис:</p>
              <div class="mapin">
-			     <img width="300" height="158" src="images/map.png" alt="">
+			     <img width="300" height="158" src="img/map.png" alt="">
                 <a class="bth" href="#">Заблудитесь напишите нам</a> 
              </div>
         </div>
@@ -249,7 +260,7 @@
     </main>
     <footer>
         <div class="footer-top container">
-                <a class="main" href="main">Техномарт</a>		
+                <a class="main">Техномарт</a>		
                 <section class="adress">
                   <p>г. Санкт-Петербург, ул. Б. Конюшенная,д. 19/8
                    +7 (812) 555-05-55</p>  
@@ -282,10 +293,6 @@
                     <p>Обратная связь:</p>
                     <a class="mail" href="https://htmlacademy.ru">mail@htmlacademy.ru</a>
                 </section>
-                <section class="footer-link">
-                    <p>Обратная связь:</p>
-                    <a class="mail" href="https://htmlacademy.ru">mail@htmlacademy.ru</a>
-                </section>
                 <section class="footer-copyright">
                     <p>Разработано</p>
                     <a class="mail" href="https://htmlacademy.ru">mail@htmlacademy.ru</a>
@@ -293,26 +300,33 @@
         </div>
     </footer>
 	<section class="modal modal-submit">        
- 	     <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
-          <input type="text" name="user-name" id="name" required>
-          <label for="name">Ваше имя:</label>
-		  <input type="email" name="user-mail" id="mail" required>
-          <label for="mail">Ваш e-mail:</label>
-	      <label for="address">Текст письма:</label>
-          <textarea id="address" name="address" rows="2" required></textarea>
+ 	     <form class="submit-form" action="https://echo.htmlacademy.ru" method="post">
+		  <label for="name">Ваше имя:</label>
+          <input type="text" name="user-name" id="name" required placeholder="Представтесь пожалуйста">
+		  <label for="mail">Ваш e-mail:</label>
+		  <input type="email" name="user-mail" id="mail" required placeholder="Для отправки ответа">        
+		   <p class="letter">
+          
+		  <label for="address">Текст письма:</label>
+		  <textarea id="address" name="address" rows="2" required placeholder="Представтесь пожалуйста"></textarea>
+		   </p>
+		   <div class="submit">
           <button type="submit">Отправить</button>
+		   </div>
           <button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
       </form>
     </section> 
      <section class="modal modal-buy">
          <h2>Товар добавлен в корзину:</h2>
+		 <div class="order">
 		 <a class="issue" href="#">Оформить заказ</a>
 		 <a class="buy-return" href="#">Продолжить покупки</a>
+		 </div>
          <button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
     </section>
    <section class="modal-content-map">
       <button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
-      
+	  <img width="300" height="158" src="img/map.png" alt="">    
     </section>	
   </body>
 </html>
