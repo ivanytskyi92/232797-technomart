@@ -1,7 +1,7 @@
  html,body  {
     margin: 0;
     padding: 0;	
-    font-family: "Cuprum", "Helvetica", "PT Sans" sans-serif;
+    font-family: "Cuprum", "Helvetica", sans-serif;
     line-height: 24px;
     font-size: 14px;
 	min-width: 960px;		    
@@ -67,16 +67,17 @@ a {
 	color: #ee3643;
 	line-height: 23px;
    }
-.header-contacts  .phone {
-	color: #e9292a;
+.header-contacts  > div{
+	color: red;
 	border: 2px solid #ffffff;
 	line-height: 21px;
    }
 .header-contacts  .adress {
 	color: #32425c;
 	font-size: 14px;
-	line-height: 21px;	
-   }
+	line-height: 21px;
+	
+}
 .header-authorization .sign-up {
 	background-color: #ffffff;
    }
@@ -88,6 +89,11 @@ a {
 	text-decoration: none;
 	font-size: 21px;
 	line-height: 18px;
+    }
+	
+.header-authorization  a:hover {
+	color: #ee3643;
+	
     }
 .main-menu  {
 	background-color: #32425c;
