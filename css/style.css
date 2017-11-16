@@ -1,7 +1,7 @@
  html,body  {
     margin: 0;
     padding: 0;	
-    font-family: "Cuprum", "Helvetica", sans-serif;
+    font-family: "Cuprum", "Helvetica", "PT Sans" sans-serif;
     line-height: 24px;
     font-size: 14px;
 	min-width: 960px;		    
