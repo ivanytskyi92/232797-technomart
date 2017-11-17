@@ -2,19 +2,45 @@
     margin: 0;
     padding: 0;	
     font-family: "Cuprum", "Helvetica", sans-serif;
-    line-height: 24px;
-    font-size: 14px;
 	min-width: 960px;		    
     }
 /*   technomart-index   */
 /*   header-top */
 .header-top {
 	background-color: #293449;
-	line-height: 18px;
+	
    }
+ .header-top .main {
+	 text-decoration: none;
+	 background-color: #ee3643;
+	 padding: 55px 13px;
+	 text-transform: uppercase;
+	 color: #ffffff;
+	 font-size: 24px;
+	 font-weight: normal;
+     line-height: 24px;	 
+    }  
 a {
 	text-decoration: none;
    }
+   .search  form input[type="search"] {
+    color: white;
+	background-color: #293449;
+	text-transform: uppercase;
+	color: #ffffff;
+	font-size: 17px;
+	line-height: 18px;
+	font-weight: normal;
+	font-family: "Cuprum", sans-serif;
+	border: none;
+    }
+.search  form input[type="search"]:hover {
+    background: #32425c;
+    }
+.search  form input[type="search"]:focus {
+    background: #ffffff;
+    }
+ 
 .user-block {
 	
     }
@@ -24,34 +50,10 @@ a {
     }
 .user-block a {
 	color: #ffffff;
-	line-height: 18px;		
+	line-height: 18px;
+    font-size: 17px;	
     }
-.header-top .main {
-	 text-decoration: none;
-	 background-color: #ee3643;
-	 padding: 55px 13px;
-	 text-transform: uppercase;
-	 color: #ffffff;
-	 font-size: 24px;
-	 font-weight: normal;	 
-    }
-.search  form input[type="search"] {
-    color: white;
-	background-color: #293449;
-	text-transform: uppercase;
-	color: #ffffff;
-	font-size: 17px;
-	font-weight: normal;
-	border: none;
-    }
-.search  form input[type="search"]:hover {
-    background: #32425c;
-    }
-.search  form input[type="search"]:focus {
-    background: #ffffff;
-	
-    }
- 
+
 /*   header-top */
  
  
@@ -70,14 +72,14 @@ a {
 .header-contacts  > div{
 	color: red;
 	border: 2px solid #ffffff;
-	line-height: 21px;
+	line-height: 18px;
+	font-size: 21px;
    }
 .header-contacts  .adress {
 	color: #32425c;
 	font-size: 14px;
-	line-height: 21px;
-	
-}
+	line-height: 24px;	
+    }
 .header-authorization .sign-up {
 	background-color: #ffffff;
    }
@@ -101,6 +103,9 @@ a {
    }
 .main-menu  a {
 	color: #ffffff;
+	font-size: 17px;
+	line-height: 17px;
+	
    }
 .main-menu  a:hover {
 	color: #ffffff;
@@ -111,7 +116,7 @@ a {
 	color: #ffffff;
 	list-style: none;
 	min-width: 940px;
-   }
+    }
  /*   header-bottom  */
  
   /*   features  */
@@ -120,40 +125,37 @@ a {
    font-weight: bold;
    font-size: 24px;
    color: #ffffff;
-   line-height: 30px;
   }
   
  .features  a {
-	 line-height: 18px;
+	line-height: 18px;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #ffffff;
+	
     }
-  .features a:hover {
-	   
-	background-color: rgba(204, 204, 204, 0.1);
-    } 
+	
+.features .text {
+	line-height: 30px;
+	font-size: 24px;
+	} 
   
 .features .matter {
-	background-color: #f6b22d;   	
+	background-color: #f6b22d;
+      	
     }
 .matter a {
 	background-color: rgba(221, 60, 40, 0.1);
-	text-transform: uppercase;
-	color: #ffffff;
-	font-weight: normal;
-	font-size: 14px;
-	line-height: auto;
+		
     }
   .matter a:hover {
 	  background-color: rgba(204, 204, 204, 0.1);
     }
 .features .tools {
-	background-color: #4aafde;
+	background-color: #4aafde;	
     }
 .tools > a {
 	background-color: rgba(66, 157, 199, 0.1);
-	text-transform: uppercase;
-	color: #ffffff;
-	font-weight: normal;
-	font-size: 14px;
     }
 	
 .slide a {
@@ -173,18 +175,16 @@ a {
  
 .features .tech {
 	background-color: #cc79d1;
+	
     }
 
 .tech > a {
 	background-color: rgba(183, 109, 188, 0.1);
-	text-transform: uppercase;
-	color: #ffffff;
-	vertical-align: middle;
-	font-weight: normal;
-	font-size: 14px;
+	
     }
 .features .discount{
 	background-color: #85d179;
+	
     }
 
 .discount > a {
@@ -193,7 +193,7 @@ a {
 	color: #ffffff;
 	vertical-align: middle;
 	font-weight: normal;
-	font-size: 14px;
+	
     }
 .features .shipping {
 	background-color: #f6b22d;
@@ -201,11 +201,7 @@ a {
 
 .features .shipping a {
 	background-color: rgba(221, 60, 40, 0.1);
-	text-transform: uppercase;
-	color: #ffffff;
-	font-weight: normal;
-	font-size: 14px;
-	
+
     }
 	/*   features  */
 	
@@ -215,9 +211,9 @@ a {
 	text-transform: uppercase;
     }	
  .index-content-left h2 {
-	 line-height: 30px;
-	 font-size: 30px;
-	 color: #32425c
+	line-height: 30px;
+	font-size: 30px;
+	color: #32425c
     }
    .index-content-right .bth {
 	background: #fb565a none repeat scroll 0 0;
@@ -241,15 +237,20 @@ a {
    }
 .catalog-item {  
     border:1px solid #ccc;
-    line-height:20px;
     font-weight:bold;
     text-align:center;	
     }
+.catalog-item .title {
+	font-size: 18px;
+	line-height:20px;
+   }	
 .catalog-item .discount{
     min-height:20px;
     margin-top:15px;
     margin-bottom:10px;
     color:#999;
+	font-size: 17px;
+	line-height: 18px;
     text-decoration:line-through;
     }
 .catalog-item .price{
@@ -261,7 +262,10 @@ a {
     color:white;
     background:#ee3643;
     border-radius:3px;
+	font-size: 17px;
+	line-height: 18px;
     }
+
 
 /*   catalog-company  */
 
@@ -281,6 +285,7 @@ a {
 	color: #000000;
 	text-transform: uppercase;
 	font-size: 30px;
+	font-weight: normal;
 	line-height: 24px;	
     }
 .tab-menu p {
@@ -288,11 +293,11 @@ a {
 	font-size: 13px;
 	line-height: 24px;
    }
-.tab-nav {
+.tab-menu .tab-nav {
 	font-weight: bold;
 	font-size: 21px;
 	background-color: #32425c;
-	line-height: 24px;
+	line-height: 30px;
     }
 
 .tab-nav li {
@@ -307,11 +312,12 @@ a {
     }
 .tab-panels h2 {
 	text-transform: uppercase;
-	font-size: 24px;
+	font-size: 36px;
+	font-weight: normal;
+	line-height: 24px;
 	color: #32425c;
     }
-.tab-panels p {
-	
+.tab-panels p {	
 	font-size: 13px;
 	line-height: 24px;
 	font-family: "PT Sans", sans-serif;
@@ -324,16 +330,20 @@ a {
 	text-transform: uppercase;
 	font-size: 30px;
 	line-height: 24px;
+	font-weight: normal;
+	color: #000000;
     }
 
 .about-technomart p {
 	font-size: 13px;
-	font-family: "PT Sans", sans-serif;
 	line-height: 24px;
+	font-family: "PT Sans", sans-serif;	
+	
     }
  .suggestions  a {
 	color: #000000;
-	font-size: 13px;
+	font-size: 18px;
+	line-height: 40px;
     }
 
 .about-technomart .bth {
@@ -341,14 +351,23 @@ a {
     border-radius: 3px;
     color: white;
     font-size: 14px;
+	line-height: 18px;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
     }
 .about-technomart .bth:hover {
 	background-color: #ca2c37;
-	
     }
+.map .index-content-title {
+	font-size: 30px;
+	line-height: 24px;
+		olor: #000000;
+	}
+.map p {
+	 font-size: 13px;
+     line-height: 24px;  	  
+    }	
 /*   about-technomart   */
 
 /*   footer-top   */
@@ -360,13 +379,14 @@ a {
 	 padding: 55px 13px;
 	 text-transform: uppercase;
 	 color: #ffffff;
-	 font-size: 24px;
-	 font-weight: normal;	
+	 font-size: 30px;
+	 line-height: 30px;
+	 	
     }
 .footer-top  p {
-	font-size: 18px;
 	color: #ffffff;
 	line-height: 24px;
+	font-size: 18px;
     }
 .menu-top-footer,
 .menu-bottom-footer {
@@ -395,21 +415,33 @@ a {
     }
 .footer-contacts {
 	color: #ffffff;
+	font-size: 16px;
+	line-height: 18px;
     }
 .footer-social a {
 	color: #ffffff;
+	font-size: 16px;
+	line-height: 18px;
     }
 .footer-link  p {
 	color: #ffffff;
+	font-size: 16px;
+	line-height: 18px;
     }
 .footer-link  a {
-	color: #ffdor180;
+	color: #ffd180;
+	font-size: 16px;
+	line-height: 18px;
     }
 .footer-copyright  p {
 	color: #ffffff;
+	font-size: 16px;
+	line-height: 18px;
     }
 .footer-copyright  a {
 	color: #ffd180;
+	font-size: 16px;
+	line-height: 18px;
     }
 .modal {
   color: #000000;
@@ -508,7 +540,9 @@ textarea {
 .user {
 	background-color: #ffffff;
 	color: #000000;
+	font-size: 21px;
 	line-height: 18px;
+	
    }
 .user:hover {	
    }
@@ -525,7 +559,9 @@ textarea {
 
 /*  puncher-title */
 .puncher-title {
-	background-color: 
+	color: #32425c;
+	font-weight: normal;
+	line-height: 30px;
 }
 /*  puncher-title */
 
@@ -537,6 +573,7 @@ textarea {
 .catalog-navigation a {
 	list-style: none;
 	line-height: 18px;
+	font-size: 13px;
 	color: #000000;	
     }
 /*  catalog-navigation */
@@ -556,16 +593,20 @@ textarea {
 /*  sorted */
 .sorted {
     background-color: #f7f3ec; 
-	text-transform: uppercase;	
+	text-transform: uppercase;
+    font-size: 13px;
+	line-height: 18px;	
     }
 .sorted p {
 	font-size: 13px;
+	line-height: 18px;	
 	font-family: "PT Sans", sans-serif;
-    line-height: 18px;	
+    
     }
 .sorted .link-sorting {
 	font-family: "PT Sans", sans-serif;
-	font-size: 13px; 	
+	font-size: 13px;
+    line-height: 18px; 	
     }
 .link-sorting a {
 	color: #b2b2b2;
@@ -589,6 +630,7 @@ textarea {
 	text-transform: uppercase;
 	font-family: "PT Sans", sans-serif;
 	font-size: 13px;
+	font-weight: bold;
 	line-height: 30px;
    }
 /*  price-filter */
@@ -602,7 +644,6 @@ textarea {
     }
 .price-controls label {
     display: inline-block;
-    font-size: 16px;
     text-align: center;   
    }
 .max-price {
@@ -614,7 +655,8 @@ textarea {
     border-radius: 5px;
     color: #283136;
     font-family: "PT Sans",sans-serif;
-    font-size: 17px; 
+    font-size: 17px;
+    line-height: 18px;	
     text-align: center;
    }
 
@@ -626,17 +668,18 @@ input[type="checkbox"] + label {
     cursor: pointer;
 	font-weight: normal;
 	line-height: 20px;
+	font-size: 15px;
 	font-family: "PT Sans",sans-serif;
 	text-transform: uppercase;
-	font-size: 15px;
+	
    }
 input[type="radio"] + label {
 	color: black;
     cursor: pointer;
-	font-weight: normal;
 	line-height: 20px;
-	font-family: "PT Sans",sans-serif;
 	font-size: 15px;
+	font-weight: normal;
+	font-family: "PT Sans",sans-serif;
 	text-transform: uppercase;
    }
 /*  [type="checkbox"],[type="radio"] */
@@ -644,25 +687,19 @@ input[type="radio"] + label {
 /*  form */
 form .maker {
 	font-family: "PT Sans",sans-serif;
-	font-size: 15px;
+	font-size: 17px;
+	font-weight: bold;
 	text-transform: uppercase;
 	line-height: 30px;
    }
 form .food {
 	font-family: "PT Sans",sans-serif;
-	font-size: 15px;
+	font-size: 17px;
+	font-weight: bold;
 	text-transform: uppercase;
 	line-height: 30px;
     }
-.width input[type="submit"] {
-	text-transform: uppercase;
-	font-family: "PT Sans", sans-serif;
-	font-size: 13px;
-	line-height: 30px;
-	background-color: #ffffff;
-    border: 2px solid #d7dcde;
-    border-radius: 3px;
-   }
+
 /*  form */
 
 /*  about-puch */
@@ -671,9 +708,13 @@ form .food {
     color: #000000;
     line-height: 24px;
    }
+.about-puch h2 {
+	font-size: 30px;
+	line-height: 24px;
+}	
 .about-puch  p {
     font-family: "Pt-sans",sans-serif;
-    font-size: 11px;
+    font-size: 13px;
 	line-height: 24px;	
    }
 /*  about-puch */
@@ -684,7 +725,8 @@ form .food {
     border: 1px solid #ccc;
     border-radius: 3px;
 	font-family: "PT Sans",sans-serif;
-	font-size: 12px;
+	font-size: 13px;
+	line-height: 18px;
 	color: #000000;
    }
 
