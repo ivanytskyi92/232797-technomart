@@ -26,7 +26,6 @@ a {
    .search  form input[type="search"] {
     color: white;
 	background-color: #293449;
-	text-transform: uppercase;
 	color: #ffffff;
 	font-size: 17px;
 	line-height: 18px;
@@ -68,11 +67,12 @@ a {
 	font-style: italic;
 	color: #ee3643;
 	line-height: 23px;
+	
    }
 .header-contacts  > div{
 	color: red;
 	border: 2px solid #ffffff;
-	line-height: 18px;
+	line-height: 21px;
 	font-size: 21px;
    }
 .header-contacts  .adress {
@@ -90,7 +90,7 @@ a {
 	color: #000000;
 	text-decoration: none;
 	font-size: 21px;
-	line-height: 18px;
+	line-height: 21px;
     }
 	
 .header-authorization  a:hover {
@@ -286,7 +286,7 @@ a {
 	text-transform: uppercase;
 	font-size: 30px;
 	font-weight: normal;
-	line-height: 24px;	
+	line-height: 30px;	
     }
 .tab-menu p {
 	font-family: "PT Sans", sans-serif;
@@ -299,7 +299,6 @@ a {
 	background-color: #32425c;
 	line-height: 30px;
     }
-
 .tab-nav li {
 	list-style: none;
     }
@@ -314,7 +313,7 @@ a {
 	text-transform: uppercase;
 	font-size: 36px;
 	font-weight: normal;
-	line-height: 24px;
+	line-height: 36px;
 	color: #32425c;
     }
 .tab-panels p {	
@@ -329,7 +328,7 @@ a {
 .about-technomart  .index-content-title {
 	text-transform: uppercase;
 	font-size: 30px;
-	line-height: 24px;
+	line-height: 30px;
 	font-weight: normal;
 	color: #000000;
     }
@@ -343,7 +342,7 @@ a {
  .suggestions  a {
 	color: #000000;
 	font-size: 18px;
-	line-height: 40px;
+	line-height: 20px;
     }
 
 .about-technomart .bth {
@@ -361,8 +360,8 @@ a {
     }
 .map .index-content-title {
 	font-size: 30px;
-	line-height: 24px;
-		olor: #000000;
+	line-height: 30px;
+		
 	}
 .map p {
 	 font-size: 13px;
@@ -706,7 +705,7 @@ form .food {
 .about-puch {
     background: #f2f6f9;
     color: #000000;
-    line-height: 24px;
+    
    }
 .about-puch h2 {
 	font-size: 30px;
