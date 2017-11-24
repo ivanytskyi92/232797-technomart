@@ -247,21 +247,21 @@
   }
   .puch h2 {
 	  position: relative;
-	  z-index: 2px;
+	  z-index: 100;
   }
   .puch p {
 	  position: relative;
-	  z-index: 2px;
-	  color: red;
+	  z-index: 100;
+	 
 	  top: 70px;
   }
   .drills h2 {
 	  position: relative;
-	  z-index: 2px;
+	  z-index: 100;
   }
   .drills p {
 	  position: relative;
-	  z-index: 2px;
+	  z-index: 100;
   }
 .features-2  {
 	display: flex;
