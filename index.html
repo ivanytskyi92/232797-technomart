@@ -10,21 +10,23 @@
   </head>
 <body>
    <header>
-     <div class="header-top container">
-            
+     <div class="header-top">
+      <div class="header-top-wrapper container">	 
           <a class="main">Техномарт</a>
             <div class="search">
             <form action="/echo" method="post">
                 <input type="search" placeholder="Поиск" value="Поиск:">
             </form>
             </div>
-                <ul class="user-block">
+            <ul class="user-block">
                     <li><a class="bookmark" href="#">Закладки:0</a></li>
                     <li><a class="basket" href="#">Корзина</a></li>
                     <li><a class="order" href="#">Оформить заказ</a></li>
-               </ul>
+            </ul>
+	  </div>
 	</div>
-      <div class="header-bottom container"> 
+      <div class="header-bottom-page-1"> 
+	    <div class="header-bottom-wrapper container">
             <div class="header-information">
                 <p>Интернет-магазин строительных материалов<br> 
              и инструментов для ремонта</p>
@@ -37,7 +39,11 @@
                 <a class="sign-up" href="#">Войти</a>
                 <a class="log" href="#">Регистрация</a>
             </div>
-            <ul class="main-menu container">
+		   </div>
+		  </div>
+            <div class="header-bottom-page-2">
+            <div class="header-bottom-wraper container"> 			
+            <ul class="main-menu">
                     <li><a class="main" href="#">Главная</a></li>
                     <li><a class="company" href="#">Компания</a></li>
                     <li><a class="directory" href="techomart-catalog.html">Каталог</a></li>
@@ -45,11 +51,13 @@
                     <li><a class="deals" href="#">Спецпредложения</a></li>
                     <li><a class="shipping" href="#">Доставка</a></li>
     	            <li><a class="contacts" href="#">Контакты</a></li>
-            </ul>			
-	    </div>
+            </ul>
+           </div> 			
+	      </div>
     </header>
-    <section class="features container">
-	   <div class="page-features-inner-1">
+    <section class="features">
+	 <div class="features-wrapper container">
+	    <div class="features-1">
        <div class="matter">     
 		<p class="text">Материалы</p> 
 		<a class="btn" href="#">На любой вкус</a>
@@ -90,11 +98,9 @@
 		</div>
 	   </div>
 	  </div>
-	  </div>
-	  
+     </div> 	   
+	  <div class="features-2">
 	 
-	  <div class="page-features-inner-2">
-	  <div class="container">
 	  <div class="tech">
 		   <p class="text">Техника</p> 
 		   <a class="btn" href="#">Для стройки</a>
@@ -105,11 +111,10 @@
 	  </div>
 	   <div class="shipping">
          <p class="text">Доставка</p> 
-         <a class="btn" href="#">На 350 товаров</a>
-       		 
+         <a class="btn" href="#">На 350 товаров</a>     		 
       </div>  
-      </div>
-      </div>	  
+     </div>
+     </div>	  
 	</section>
     <main class="container">
         <div class="index-content">

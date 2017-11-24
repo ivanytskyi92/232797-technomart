@@ -7,17 +7,17 @@
 /*   technomart-index   */
 /*   header-top */
 .header-top {
-	background-color: #293449;
-	padding: -2px 0;
-	
-    	
+	background-color: #293449;		   	
    }
+   
  .container {
   width: 940px;
   margin: 0 auto;
   padding: 0 10px;
   }
- 
+ .header-top-wrapper {
+	display: flex; 
+  } 
  .header-top .main {
 	 text-decoration: none;
 	 background-color: #ee3643;
@@ -52,9 +52,11 @@
  
 .user-block {
 	width: 460px;
+	
+	
     }
 .user-block  ul {
-	display: flex;
+	
 		
     }
 .user-block a {
@@ -68,16 +70,17 @@
  
  /*   header-bottom  */
  
-  .header-bottom {
+  .header-bottom-page-1 {
 	background-color: #f2f6f8;
 	padding-top: 50px;
-	display: flex;
 		
-	
-       	
+	     	
     }
+.header-bottom-page-1 .header-bottom-wrapper {
+	display: flex; 
+  }
  
-.header-bottom  .header-information {
+.header-bottom-page-1  .header-information {
 	font-size: 16px;
 	font-style: italic;
 	color: #ee3643;
@@ -126,13 +129,17 @@
 	background-color: #32425c;
 	color: #ffffff;	
 	width: 940px;
-	margin-top: 23px;
-	
-	
+	margin-top: 23px;	
 	   	
    }
+.header-bottom-page-2 {
+	background-color: #f2f6f8; 
+    }
+.header-bottom-page-2 .header-bottom-wraper	{
+	display: flex;
+    }
  .main-menu ul {
-	 display: flex;
+	 
     }
 .main-menu  a {
 	color: #ffffff;
@@ -154,17 +161,7 @@
  
   /*   features  */
   
-.features  {
-   font-weight: bold;
-   font-size: 24px;
-   color: #ffffff;
-   display: flex;
-   flex-wrap: nowrap;
-   
-   
-   
-    
-  }
+
   
   .page-features-inner-1 {
    display: flex;
@@ -187,7 +184,8 @@
   
 .features .matter {
 	background-color: #f6b22d;
-	width: 300px;     	
+	width: 300px; 
+    margin-right: 20px;	
     }
 .matter a {
 	background-color: rgba(221, 60, 40, 0.1);
@@ -255,24 +253,33 @@
 	  position: relative;
 	  z-index: 100;
   }
-.features-2  {
+.page-features-inner-2 {
+   display: flex;
+  }
+.features-1 {
 	display: flex;
-	
 	justify-content: space-between;
-	
 	align-items: flex-start;
-	
-	
-	
-    }	
-
-
+}
+.features-2 {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-direction: column;
+}
 .features .tech {
 	background-color: #cc79d1;
 	width: 300px;
 	margin-bottom: 20px;
+	
     }
-
+.features-wrapper-page-1 {
+	display: flex;
+	flex-wrap: wrap;
+   }
+   .features-wrapper-page-2 {
+	display: flex;
+   }
 .tech > a {
 	background-color: rgba(183, 109, 188, 0.1);
 	
