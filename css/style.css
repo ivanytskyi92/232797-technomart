@@ -25,7 +25,7 @@
  .header-top .main {
 	 text-decoration: none;
 	 background-color: #ee3643;
-	 padding: 55px 13px;
+	 padding: 13px 55px;
 	 text-transform: uppercase;
 	 color: #ffffff;
 	 font-size: 24px;
@@ -58,7 +58,7 @@
 	width: 460px;
     }
 .user-block  ul {
-	list-style: none;
+	display: flex;
 		
     }
 .user-block a {
@@ -75,14 +75,14 @@
   .header-bottom {
 	background-color: #f2f6f8;
 	padding-top: 50px;
-	margin-top: -23px;
+	
 	
 	
        	
     }
  .header-bottom .container {
    display: flex;
-   flex-direction: row;
+   
    
    
      
@@ -93,13 +93,13 @@
 	color: #ee3643;
 	line-height: 23px;
 	margin-right: 90px;
-	width: 200px;
+	width: 300px;
 	
 	
    }
 .header-contacts  > div{
 	color: red;
-	
+	width: 300px;
 	line-height: 21px;
 	font-size: 21px;
 	margin-right: 126px;
@@ -109,11 +109,17 @@
 	font-size: 14px;
 	line-height: 24px;	
     }
+.header-authorization {
+    display: inline-block;
+	width: 300px;
+    }	
 .header-authorization .sign-up {
 	background-color: #ffffff;
+	width: 300px;
    }
 .header-authorization .log {
 	background-color: #ffffff;
+	width: 300px;
    }		
 .header-authorization  a {
 	color: #000000;
@@ -131,9 +137,13 @@
 	color: #ffffff;	
 	width: 940px;
 	margin-top: 23px;
+	
+	
 	   	
    }
-	
+ .main-menu ul {
+	 display: flex;
+    }
 .main-menu  a {
 	color: #ffffff;
 	font-size: 17px;
@@ -202,9 +212,9 @@
 .tools > a {
 	background-color: rgba(66, 157, 199, 0.1);
     }
-#slider {
-	margin-top: -202px;
-}	
+.slider {
+	
+     }	
 .slide a {
 	background-color: #fb565a;
     border-radius: 3px;
@@ -219,6 +229,40 @@
  .slide a:hover {
 	background-color: #ca2c37
     }
+  .slide h2 {
+	  position: absolute;
+    }
+ .slide img {
+    position: absolute;
+ }
+ .slide  .prev {
+	 position: absolute;
+ }
+ 
+ .slide  .next {
+	 position: absolute;
+  }
+  .slide  .drills {
+	 display: none;
+  }
+  .puch h2 {
+	  position: relative;
+	  z-index: 2px;
+  }
+  .puch p {
+	  position: relative;
+	  z-index: 2px;
+	  color: red;
+	  top: 70px;
+  }
+  .drills h2 {
+	  position: relative;
+	  z-index: 2px;
+  }
+  .drills p {
+	  position: relative;
+	  z-index: 2px;
+  }
 .features-2  {
 	display: flex;
 	
@@ -365,25 +409,30 @@
 /*   catalog-company  */
 
 .catalog-company  .container {
-	display: flex;
-	 
-   width: 980px;
-   flex-wrap: wrap;
-   margin-left: -12px;
+   display: flex;	 
+   width: 940px;
+   flex-wrap: wrap; 
    margin-bottom: 77px;
+   
 	 
    }
 
+
 .catalog-company .catalog-item {  
    width: 220px;
-   height: 147px;
+   height: 145px;
    display: flex;
    justify-content: center; 
    align-items: center;
    flex-wrap: wrap;
-   margin-right: 20px;
-   margin-bottom: 20px;    
+   margin-bottom: 20px; 
+   margin-right: 20px; 
+   box-sizing: border-box;   
    }
+   
+   .catalog-company .catalog-item:first-child {
+    margin-left: -12px;
+}
   
 /*   catalog-company  */
 

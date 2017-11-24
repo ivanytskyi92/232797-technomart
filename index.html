@@ -18,13 +18,11 @@
                 <input type="search" placeholder="Поиск" value="Поиск:">
             </form>
             </div>
-            <nav class="user-block">
-                <ul>
+                <ul class="user-block">
                     <li><a class="bookmark" href="#">Закладки:0</a></li>
                     <li><a class="basket" href="#">Корзина</a></li>
                     <li><a class="order" href="#">Оформить заказ</a></li>
-                </ul>
-            </nav>
+               </ul>
       </div>
 	</div>
       <div class="header-bottom">
@@ -42,8 +40,7 @@
                 <a class="log" href="#">Регистрация</a>
             </div>
 			</div>
-            <nav class="main-menu container">
-                <ul>
+            <ul class="main-menu container">
                     <li><a class="main" href="#">Главная</a></li>
                     <li><a class="company" href="#">Компания</a></li>
                     <li><a class="directory" href="techomart-catalog.html">Каталог</a></li>
@@ -51,12 +48,12 @@
                     <li><a class="deals" href="#">Спецпредложения</a></li>
                     <li><a class="shipping" href="#">Доставка</a></li>
     	            <li><a class="contacts" href="#">Контакты</a></li>
-                </ul>			
-            </nav>
+            </ul>			
 	    </div>
     </header>
     <section class="features">
-	   <div class="container">
+	   <div class="page-features-inner-1">
+	  <div class="container">
        <div class="matter">     
 		<p class="text">Материалы</p> 
 		<a class="btn" href="#">На любой вкус</a>
@@ -65,8 +62,8 @@
 		   <p class="text">Инструменты</p> 
 		   <a class="btn" href="#">На все случаи жизни</a>
 	  </div>
-	  <div id="slider">
-	    <div id="slider-wrap">
+	  <div class="slider">
+	    <div class="slider-wrap">
 		<button class="btn prev" type="button">Назад</button>
         <button class="btn next" type="button">Вперёд</button>
         <input type="radio" id="btn-1" name="toggle" checked>
@@ -78,11 +75,12 @@
 		 <div class="slide">
 		  <div class="puch">
            	<h2>Перфораторы</h2> 
-		    <p>Настоящие мужские игрушки</p>
+		    <p class="text">Настоящие мужские игрушки</p>
             <a class="btn" href="#">Открыть каталог</a>			 
 		 </div>
 		   <img src="img/punchers.jpg" width="620" height="266" alt="Перфораторы">
-		    
+		    <button class="btn prev" type="button">Назад</button>
+            <button class="btn next" type="button">Вперёд</button>
 		</div>
 		<div class="slide">
 		  <div class="drills">
@@ -94,10 +92,12 @@
 		    <button class="btn prev" type="button">Назад</button>
             <button class="btn next" type="button">Вперёд</button>
 		</div>
+	   </div>
+	  </div>
 	  </div>
 	 </div>
-	 <div class="features-2">
-	  
+	  <div class="page-features-inner-2">
+	  <div class="container">
 	  <div class="tech">
 		   <p class="text">Техника</p> 
 		   <a class="btn" href="#">Для стройки</a>
@@ -111,8 +111,8 @@
          <a class="btn" href="#">На 350 товаров</a>
        		 
       </div>  
-	</div>
-   </div> 	
+      </div>
+      </div>	  
 	</section>
     <main class="container">
         <div class="index-content">
@@ -241,8 +241,7 @@
        </div>
     </main>
 		
-       <div class="about-technomart">
-	   <div class="container">
+    <div class="about-technomart container">
         <div class="index-content-left">
             <h2 class="index-content-title">Компания &laquo;техномарт&raquo;</h2>
             <p>Настощий мужской шопинг начинается здесь! Огромный выбор товаров для ремонта и
@@ -265,13 +264,11 @@
 			     <img width="300" height="158" src="img/map.png" alt=""> 
              </div>
 			 <a class="bth-2" href="#">Заблудитесь напишите нам</a>
-        </div>	 
-	  </div>	
+        </div>	 	
      </div>
     <footer>
         <div class="footer-top">
-		<div class="page-footer-ineer">
-		 <div class="container">
+		<div class="page-footer-ineer container">
             <a class="main">Техномарт</a>		
              <section class="adress">
               <p>г. Санкт-Петербург, ул. Б. Конюшенная,д. 19/8
@@ -290,11 +287,9 @@
                     <li><a class="tool" href="#">Инструменты</a></li>
                     <li><a class="offer" href="#">Спецпредложения</a></li>
                 </ul>        
-          </div>
 		</div>
 	 </div>
-        <div class="footer-bottom">
-		 <div class="container">
+        <div class="footer-bottom container">
                 <section class="footer-contacts">
                     <p>&copy; 2010-2017 Компания &laquo;Техномарт&raquo;
                     Все правы защищены</p>
@@ -312,7 +307,6 @@
                     <p>Разработано</p>
                     <a class="mail" href="https://htmlacademy.ru">mail@htmlacademy.ru</a>
                 </section>    
-         </div>
 	  </div>
     </footer>
 	<section class="modal modal-submit">        
