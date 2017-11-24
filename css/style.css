@@ -408,9 +408,9 @@
 
 /*   catalog-company  */
 
-.catalog-company  .container {
+.catalog-company  {
    display: flex;	 
-   width: 940px;
+   
    flex-wrap: wrap; 
    margin-bottom: 77px;
    
@@ -431,14 +431,15 @@
    }
    
    .catalog-company .catalog-item:first-child {
-    margin-left: -5px;
+    margin-left: 0px;
 }
 .catalog-company .catalog-item:nth-child(4n) {
   margin-right: 0;
 }
 .catalog-company .catalog-item:nth-child(5) {
-   margin-left: -5px;
+   margin-left: 0px;
 }
+
   
 /*   catalog-company  */
 
