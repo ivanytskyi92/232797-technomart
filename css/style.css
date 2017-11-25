@@ -77,7 +77,9 @@
 	     	
     }
 .header-bottom-page-1 .header-bottom-wrapper {
-	display: flex; 
+	display: flex;
+    align-items: center;
+   justify-content: space-around;
   }
  
 .header-bottom-page-1  .header-information {
@@ -85,8 +87,7 @@
 	font-style: italic;
 	color: #ee3643;
 	line-height: 23px;
-	margin-right: 90px;
-	width: 300px;
+	width: 198px;
 	
 	
    }
@@ -95,7 +96,8 @@
 	width: 300px;
 	line-height: 21px;
 	font-size: 21px;
-	margin-right: 126px;
+	align-self: flex-center;
+	
    }
 .header-contacts  .adress {
 	color: #32425c;
@@ -103,8 +105,9 @@
 	line-height: 24px;	
     }
 .header-authorization {
-    display: inline-block;
+    align-self: flex-start;
 	width: 300px;
+
     }	
 .header-authorization .sign-up {
 	background-color: #ffffff;
@@ -137,6 +140,7 @@
     }
 .header-bottom-page-2 .header-bottom-wraper	{
 	display: flex;
+	margin-bottom: 78px;
     }
  .main-menu ul {
 	 
@@ -162,51 +166,58 @@
   /*   features  */
   
 
-  
-  .page-features-inner-1 {
-   display: flex;
-   flex-wrap: nowrap;
-   justify-content: space-between;
-   align-items: flex-start;
-  }
+  .features {
+	  margin-bottom: 50px;
+    }
+
  .features  a {
 	line-height: 18px;
 	font-size: 14px;
 	text-transform: uppercase;
 	color: #ffffff;
+	position: absolute;
+	z-index: 100;
+	padding: 10px 25px;
+	border-radius: 3px;
 	
     }
+	.features  a:hover {
+		background-color: rgba(204, 204, 204, 0.2)
+	}
 	
 .features .text {
 	line-height: 30px;
 	font-size: 24px;
+	color: #ffffff;
 	} 
   
 .features .matter {
 	background-color: #f6b22d;
 	width: 300px; 
-    margin-right: 20px;	
+	min-height: 120px;
+    
     }
 .matter a {
-	background-color: rgba(221, 60, 40, 0.1);
+	background-color: rgba(221, 160, 40, 1.0);
 		
     }
-  .matter a:hover {
-	  background-color: rgba(204, 204, 204, 0.1);
-    }
+
+  
 .features .tools {
 	background-color: #4aafde;
     width: 300px;
-    margin-right: 320px;	
+	min-height: 120px;
+    	
     }
-.tools > a {
-	background-color: rgba(66, 157, 199, 0.1);
+.tools  a {
+	background-color: rgba(66, 157, 199, 1.0);
     }
-.slider {
 	
-     }	
+ .slider {
+	
+    }	
 .slide a {
-	background-color: #fb565a;
+	background-color: #ee3643;
     border-radius: 3px;
     color: #ffffff;
     font-size: 14px;
@@ -215,108 +226,113 @@
     text-transform: uppercase;
 	border: none;
 	line-height: 18px;
+	position: relative;
+	bottom: 30px;
+	left: 123px;
+	padding: 10px 50px;
     }		
  .slide a:hover {
 	background-color: #ca2c37
     }
-  .slide h2 {
-	  position: absolute;
-    }
+  
+ 
  .slide img {
     position: absolute;
- }
- .slide  .prev {
-	 position: absolute;
+	top: 616px;
+	
  }
  
- .slide  .next {
-	 position: absolute;
-  }
-  .slide  .drills {
+ .slide .puch {
 	 display: none;
-  }
-  .puch h2 {
+   }
+ 
+	.slide .btn {
+		position: absolute;
+		z-index: 100;
+	}
+  
+  .slide h2 {
 	  position: relative;
 	  z-index: 100;
+	  text-transform: uppercase;
+	  color: #ffffff;
+	  font-size: 30px;
+	  font-weight: bold;
+	  bottom: 120px;
+	  left: 28px;
   }
-  .puch p {
+  
+  .slide p {
 	  position: relative;
+	  bottom: 129px;
+	  left: 28px;
 	  z-index: 100;
-	 
-	  top: 70px;
+	  color: #ffffff;
+	  font-size: 30px;
   }
-  .drills h2 {
-	  position: relative;
-	  z-index: 100;
-  }
-  .drills p {
-	  position: relative;
-	  z-index: 100;
-  }
-.page-features-inner-2 {
-   display: flex;
-  }
-.features-1 {
+.features-wrapper {
 	display: flex;
 	justify-content: space-between;
-	align-items: flex-start;
+	
+	
+ }
+.features-1 {
+	display: flex;
+	width: 620px;
+	flex-wrap: wrap;
+	align-content: space-between;
+	justify-content: space-between;
+	
 }
 .features-2 {
 	display: flex;
 	justify-content: space-between;
-	align-items: flex-start;
 	flex-direction: column;
+	 
+	
 }
 .features .tech {
 	background-color: #cc79d1;
 	width: 300px;
 	margin-bottom: 20px;
+	min-height: 120px;
 	
     }
-.features-wrapper-page-1 {
-	display: flex;
-	flex-wrap: wrap;
-   }
-   .features-wrapper-page-2 {
-	display: flex;
-   }
-.tech > a {
-	background-color: rgba(183, 109, 188, 0.1);
+
+ .tech a {
+	background-color: rgba(183, 109, 188, 1.0);
 	
     }
 .features .discount{
 	background-color: #85d179;
 	width: 300px;
 	margin-bottom: 20px;
-    	
-	
-	
-		
+	min-height: 120px;
+    			
     }
 	
-
-.discount > a {
-	background-color: rgba(119, 188, 109, 0.1);
+.discount  a {
+	background-color: rgba(119, 188, 109, 1.0);
 	text-transform: uppercase;
 	color: #ffffff;
-	font-weight: normal;
-	
-	
+	font-weight: normal;	
     }
 .features .shipping {
 	background-color: #f6b22d;
 	width: 300px;
-	
-	
+	min-height: 122px;	
     }
 
-.features .shipping a {
-	background-color: rgba(221, 60, 40, 0.1);
+ .shipping a {
+	background-color: rgba(221, 160, 40, 1.0);
 
     }
 	/*   features  */
 	
 	/*   index-content  */
+.main-wapper {
+	display: flex;
+}
  .index-content {
     background-color: #f7f3ec;
 	text-transform: uppercase;
@@ -337,7 +353,7 @@
 	
     }
    .index-content .bth {
-	background: #fb565a none repeat scroll 0 0;
+	background: #ee3643;
     border-radius: 3px;
     color: white;
     font-size: 14px;
@@ -447,14 +463,7 @@
 	
     
     }
-.tab-menu .container {
-	display: flex;
-	flex-direction: column;
-	
-	
-     
-	
-   }
+
 .tab-menu  h2{
 	color: #000000;
 	text-transform: uppercase;
@@ -527,6 +536,8 @@
 /*   about-technomart   */
 .about-technomart {
 	margin-bottom: 82px;
+	display: flex;
+	justify-content: space-between;
     }
 .about-technomart  .index-content-title {
 	text-transform: uppercase;
@@ -610,26 +621,32 @@
 .footer-top {
 	background-color: #32425c;
     }
-.footer-top .container {
+.page-footer-top-ineer {
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
 	
 	
 }	
 .footer-top .main {
 	 text-decoration: none;
-	 padding: 55px 13px;
+	 
 	 text-transform: uppercase;
 	 color: #ffffff;
 	 font-size: 30px;
 	 line-height: 30px;
-	 	
+	
+	
     }
-.footer-top  p {
+.footer-top  .adress {
 	color: #ffffff;
 	line-height: 24px;
 	font-size: 18px;
-	align-self: flex-center;
-	margin-top: 100px;
+	width: 327px;
+	 flex-direction: row;
+
+	
+	
 	
 	
     }
@@ -637,11 +654,13 @@
 .menu-bottom-footer {
 	list-style: none;
 	line-height: 24px;
+	
     }
 .menu-top-footer a {
 	color: #f1f5f7;
 	font-size: 18px;
 	line-height: 24px;
+
     }
 
 .menu-bottom-footer a {
@@ -658,7 +677,7 @@
 .footer-bottom {
 	background-color: #293449;	
     }
-.footer-bottom .container {
+.page-footer-bottom-ineer    {
 	 display: flex;
 	 Flex-wrap: nowrap
 	 
