@@ -73,22 +73,24 @@
   .header-bottom-page-1 {
 	background-color: #f2f6f8;
 	padding-top: 50px;
+	
 		
 	     	
     }
 .header-bottom-page-1 .header-bottom-wrapper {
 	display: flex;
     align-items: center;
-   justify-content: space-around;
+    justify-content: space-around;
+	 
   }
  
-.header-bottom-page-1  .header-information {
+.header-bottom-page-1  .header-information  {
 	font-size: 16px;
 	font-style: italic;
 	color: #ee3643;
 	line-height: 23px;
 	width: 198px;
-	
+	align-self: baseline;
 	
    }
 .header-contacts  > div{
@@ -96,7 +98,7 @@
 	width: 300px;
 	line-height: 21px;
 	font-size: 21px;
-	align-self: flex-center;
+	
 	
    }
 .header-contacts  .adress {
@@ -105,7 +107,7 @@
 	line-height: 24px;	
     }
 .header-authorization {
-    align-self: flex-start;
+     align-self: baseline;
 	
 
     }	
@@ -831,15 +833,26 @@ textarea {
 	color: #000000;
 	font-size: 21px;
 	line-height: 18px;
+	margin-bottom: 123px
+	
+	
 	
    }
+   
+ .header-user {
+	 align-self: baseline;
+   }	 
 .user:hover {	
    }
+.user-admin {
+ margin-top: 16px;
+} 
 .user-admin a {
 	color: #aab1ba;
 	font-size: 16px;
 	text-decoration: underline;
 	line-height: 18px;
+	
     }
 .user-admin a:hover {
 	color: #ee3643;
