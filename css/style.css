@@ -403,21 +403,18 @@ background-color: red;
 	/*   promo  */
 	
 	/*   index-content  */
-.main-wapper {
-	display: flex;
-}
- .index-content {
+
+
+  .index-content-wrapper{
     background-color: #f7f3ec;
 	text-transform: uppercase;
 	display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 	align-items: center;
-	padding: 15px 37px;
+	padding: 15px 3px;
 	margin-bottom: 27px;
 	
-	
-	
-    }	
+    }
  .index-content h2 {
 	line-height: 30px;
 	font-size: 30px;
@@ -502,15 +499,13 @@ background-color: red;
 
 /*   catalog-company  */
 
-.catalog-company  {
+
+
+.catalog-company-wrapper {
    display: flex;	   
    flex-wrap: wrap; 
    margin-bottom: 77px;
-   
-	 
    }
-
-
 .catalog-company .catalog-item {  
    width: 220px;
    height: 145px;
@@ -607,11 +602,14 @@ background-color: red;
 }
 .credits-content  p {
 	width: 279px;
+	margin-right: 234px;
 	
 }
+
 .service-slides  {
+	
 	display: flex;
-	flex-direction: row;
+	justify-content: space-between;
 	
 }
 
