@@ -42,79 +42,63 @@
             <div class="header-bottom-page-2">
             <div class="header-bottom-wraper container"> 			
             <ul class="main-menu">
-                    <li><a class="main" href="#">Главная</a></li>
-                    <li><a class="company" href="#">Компания</a></li>
-                    <li><a class="directory" href="techomart-catalog.html">Каталог</a></li>
-                    <li><a class="news" href="#">Новости</a></li>
-                    <li><a class="deals" href="#">Спецпредложения</a></li>
-                    <li><a class="shipping" href="#">Доставка</a></li>
-    	            <li><a class="contacts" href="#">Контакты</a></li>
+                <li><a class="main" href="#">Главная</a></li>
+                <li><a class="company" href="#">Компания</a></li>
+                <li><a class="directory" href="techomart-catalog.html">Каталог</a></li>
+                <li><a class="news" href="#">Новости</a></li>
+                <li><a class="deals" href="#">Спецпредложения</a></li>
+                <li><a class="shipping" href="#">Доставка</a></li>
+    	        <li><a class="contacts" href="#">Контакты</a></li>
             </ul>
            </div> 			
 	    </div>
     </header>
-    <section class="features">
-	 <div class="features-wrapper container">
-	   <div class="features-1">
-       <div class="matter">     
-		<p class="text">Материалы</p> 
-		<a class="btn" href="#">На любой вкус</a>
-	  </div>
-	   <div class="tools">
-		   <p class="text">Инструменты</p> 
-		   <a class="btn" href="#">На все случаи жизни</a>
-	  </div>
-	  <div class="slider">
-	    <div class="slider-wrap">
-		<button class="btn prev" type="button">Назад</button>
-        <button class="btn next" type="button">Вперёд</button>
-        <input type="radio" id="btn-1" name="toggle" checked>
-        <input type="radio" id="btn-2" name="toggle">
-        <div class="slider-controls">
-          <label for="btn-1"></label>
-          <label for="btn-2"></label>
-        </div>  
-		 <div class="slide">
-		  <div class="puch">
-           	<h2>Перфораторы</h2>
-            			
-		    <p class="text">Настоящие мужские игрушки</p>
+    <section class="promo container">
+	 <div class="promo-left">
+	   <div class="promo-item stuff">
+         <h2>Материалы</h2>
+         <a class="btn" href="#">На любой вкус</a>
+        </div>
+	    <div class="promo-item tools">
+          <h2>Инструмент</h2>
+         <a class="btn" href="#">На все случаи</a>
+        </div>
+        <div class="promo-slider">
+		 <input type="radio" id="promo-toggle-1" name="promo-toggle" checked>
+          <input type="radio" id="promo-toggle-2" name="promo-toggle">
+		  <button class="promo-slider-btn prev">Назад</button>
+          <button class="promo-slider-btn next">Вперёд</button>
+          <div class="promo-slide">
+		    <h2>Перфораторы</h2>
+			<p>Настоящие мужкие игрушки</p>
             <a class="btn" href="#">Открыть каталог</a>
-           			
-		   <img src="img/punchers.jpg" width="620" height="266" alt="Перфораторы">
-		    <button class="btn prev" type="button">Назад</button>
-            <button class="btn next" type="button">Вперёд</button>
-		 </div>
-		</div>
-		<div class="slide">
-		  <div class="drills">
-            <h2>Дрелли</h2>
-            			
-		    <p class="text">Соседям на радость</p>
-            <a class="btn" href="#">Открыть каталог</a>			 
-		 
-		   <img src="img/drills.jpg" width="620" height="266" alt="Перфораторы">
-		    <button class="btn prev" type="button">Назад</button>
-            <button class="btn next" type="button">Вперёд</button>
-		 </div>
-		</div>
-	   </div>
-	  </div>
-     </div> 	   
-	  <div class="features-2"> 
-	  <div class="tech">
-		   <p class="text">Техника</p> 
-		   <a class="btn" href="#">Для стройки</a>
+            <img src="img/punchers.jpg" alt="Перфораторы" width="620" height="266">			
+          </div>
+          <div class="promo-slide">
+		    <h2>Дрели</h2>
+			<p>Соседям на радость</p>
+            <a class="btn" href="#">Открыть каталог</a>
+            <img src="img/drills.jpg" alt="Дрели" width="620" height="266">			
+          </div> 		  
+		   <div class="promo-slider-toggles">
+            <label for="promo-toggle-1"></label>
+            <label for="promo-toggle-2"></label>
+        </div>
+      </div>
+     </div>	  
+	  <div class="promo-right"> 
+	  <div class="promo-item tech">
+		 <h2>Техника</h2> 
+		 <a class="btn" href="#">Для стройки</a>
 	  </div>	  
-	  <div class="discount">      	  
-         <p class="text">Скидки 50%</p>
+	  <div class="promo-item discount">      	  
+         <h2>Скидки 50%</h2>
          <a class="btn" href="#">На 350 товаров</a>			 
 	  </div>
-	   <div class="shipping">
-         <p class="text">Доставка</p> 
+	   <div class="promo-item shipping">
+         <h2>Доставка</h2> 
          <a class="btn" href="#">На 350 товаров</a>     		 
       </div>  
-     </div>
      </div>	  
 	</section>
     <main class="container">
@@ -195,7 +179,6 @@
             </a>	
         </section>
         <div class="tab-menu">
-
             <h2>Сервисы</h2>
             <p>Хороший интернет-магазин отличается от плохого не только ценами! Мы стараемся из всех сил, чтобы сделать ваши покупки приятными</p>
 			<div class="service-slides">
